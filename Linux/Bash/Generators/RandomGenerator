@@ -7,4 +7,4 @@ EXAMPLE : head /dev/urandom | tr -dc A-Za-z0-9 | head -c 10 ; echo ''
 EXPLANATION :
 
 <CHARACTERS SET>    Use all Characters provided
--c X    Will generate X long string
+-c X                Will generate X long string
