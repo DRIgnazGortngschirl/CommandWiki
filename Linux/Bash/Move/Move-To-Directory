@@ -4,5 +4,5 @@ EXAMPLE : for i in *.jpg; do mv $i ./Pictures; done
 
 EXPLANATION :
 
-*.<FILE EXTENSION>    Moves the defined files into the destination directory
+*.<FILE EXTENSION>        Moves the defined files into the destination directory
 <DESTINATION DIRECTORY>   Sets the destinations directory
