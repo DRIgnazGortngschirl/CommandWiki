@@ -1,0 +1,34 @@
+COMMAND : 
+
+config system auto-script 
+    edit "<NAME-SCRIPT>"
+        set interval <SECONDS>
+        set repeat <REPEAT>
+        set start auto
+        set script "
+            config global
+            execute backup config ftp <NAME-FILE>.conf <IP> <USER> <PASSWORD>"
+    next
+end
+
+EXAMPLE : 
+
+config system auto-script 
+    edit "backup"
+        set interval 600
+        set repeat 0
+        set start auto
+        set script "
+            config global
+            execute backup config ftp backup-server-dc-01.conf 10.0.0.99 backup 8ac|<uP"
+    next
+end
+
+EXPLANATION :
+
+<NAME-SCRIPT>  Defines the name of the script
+<SECONDS> Defines the invental to restart the script
+<REPEAT>  Defines how often the script should be executed (0 = infinit)
+<NAME-FILE> Sets the file name of the backup
+<USER>  FTP Login User
+<PASSWORD>  FTP Login Password
