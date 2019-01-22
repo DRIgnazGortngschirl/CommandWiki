@@ -1,0 +1,13 @@
+
+
+COMMAND : <a href="mailto:<EMAIL>?cc=<CC-EMAIL>&amp;bcc=<BCC-EMAIL>&amp;subject=<SUBJECT>&amp;body=<MESSAGE>"><LINK-TEXT></a>
+
+EXAMPLE : <a href="mailto:example@example.com?cc=info@example.com&amp;bcc=support@example.com&amp;subject=Need%20your%20Support&amp;body=New%20release%20in%201%20Day">Send a E-Mail</a>
+
+EXPLANATION :
+
+<EMAIL>       Defines the E-Mail
+<CC-EMAIL>    Defines the CC E-Mail
+<BCC-EMAIL>   Defines the BCC E-Mail
+<SUBJECT>     Defines the subject of the E-Mail
+<MESSAGE>     Defines the Message of the E-MAil
