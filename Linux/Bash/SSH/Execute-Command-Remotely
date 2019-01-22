@@ -1,0 +1,9 @@
+COMMAND : sshpass -p <PASSWORD> ssh -t <USER>@<IP/DOMAIN> '<COMMAND>'
+
+EXAMPLE : sshpass -p Pa$$word ssh -t root@1.2.3.4 'htop'
+
+EXPLANATION :
+
+<PASSWORD>    SSH Login Password
+<USER>        SSH Login User
+<COMMAND>     Command that will be remotely executed
