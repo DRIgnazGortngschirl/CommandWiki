@@ -1,0 +1,11 @@
+COMMAND : 
+
+execute ha manage <X>
+
+EXAMPLE : 
+
+execute ha manage 0
+
+EXPLANATION :
+
+<X>   ID[Number] of the Slave
