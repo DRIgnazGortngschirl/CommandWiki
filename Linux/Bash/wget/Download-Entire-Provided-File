@@ -1,0 +1,17 @@
+COMMAND : wget -x -i <FILE>
+
+EXAMPLE : wget -x -i Links.txt
+
+EXPLANATION : 
+
+-x    Force the creation of directories based on the directory at the website
+-i    Defines the next string as a input file to Download
+
+ADDITIONAL :
+
+How the inport file should look like 
+
+<LINK>
+<LINK>
+<LINK>
+...

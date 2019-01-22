@@ -1,0 +1,8 @@
+COMMAND : for i in *.<FILE EXTENSION>; do mv $i <DESTINATION DIRECTORY>; done
+
+EXAMPLE : for i in *.jpg; do mv $i ./Pictures; done
+
+EXPLANATION :
+
+*.<FILE EXTENSION>    Moves the defined files into the destination directory
+<DESTINATION DIRECTORY>   Sets the destinations directory

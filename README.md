@@ -1,2 +1,2 @@
 # CommandWiki
-A collection of for me useful Commands
+A collection of for me usefull Commands

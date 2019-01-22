@@ -1,0 +1,10 @@
+COMMAND : wget -r -x -nc -D <DOMAIN> <LINK>
+
+EXAMPLE : wget -r -x -nc -D youtube.com https://www.youtube.com/
+
+EXPLANATION :
+
+-r    Downloads all .html files from the given LINK
+-x    Force the creation of directories based on the directory at the website
+-nc   Skips the download if the files already exists
+-D    Only downloads from the Allowed DOMAIN
