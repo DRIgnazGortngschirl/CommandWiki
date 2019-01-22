@@ -1,0 +1,9 @@
+COMMAND : tail -n +<X> <FILEIN > <FILEOUT>
+
+EXAMPLE : tail -n +10 File.txt > File-10Linies.txt
+
+EXPLANATION :
+
+<X>         How many lines [Numbers] should be removed from the top
+<FILEIN>    Input file to remove the lines
+<FILEOUT>   Output file without the defined X lines
