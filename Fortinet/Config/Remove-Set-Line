@@ -1,0 +1,11 @@
+COMMAND : 
+
+unset <NANME>
+
+EXAMPLE : 
+
+unset ssh-public-key1
+
+EXPLANATION :
+
+<NAME>    Defines the set line
