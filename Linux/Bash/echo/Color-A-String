@@ -1,0 +1,15 @@
+COMMAND : echo -e "<COLORSTART><TEXTINCOLOR><COLOREND>"
+
+EXAMPLE : echo -e "\e[36mTEXTINGREEN\e[39m"
+
+EXPLANATION :
+
+<COLORSTART>    Sets the color
+<TEXTINCOLOR>   This string will be  displayed in the color 
+<COLOREND>      Sets the color (If you only want to chnage the color of the string)
+
+ADDITIONAL :
+
+Have a look for all the color codes here :
+
+https://misc.flogisoft.com/bash/tip_colors_and_formatting
