@@ -1,0 +1,8 @@
+COMMAND : sed -n '<X>p' < <FILE>
+
+EXAMPLE : sed -n '2p' < sample.txt
+
+EXPLANATION :
+
+<X>         Reads defined line
+<FILE>      Input file to read from
