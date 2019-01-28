@@ -1,10 +1,6 @@
-COMMAND : 
+COMMAND : execute ha manage <X>
 
-execute ha manage <X>
-
-EXAMPLE : 
-
-execute ha manage 0
+EXAMPLE : execute ha manage 0
 
 EXPLANATION :
 
