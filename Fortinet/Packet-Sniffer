@@ -1,0 +1,11 @@
+
+
+COMMAND : diag sniffer packet any 'src host <SOURCEIP> and dst host <DESTINATIONIP> and port <PORT>'
+
+EXAMPLE : diag sniffer packet any 'src host 192.168.1.99 and dst host 192.168.1.1 and port 443'
+
+EXPLANATION :
+
+<SOURCEIP>        Source IP of the packet
+<DESTINATIONIP>   Destination IP of the packet
+<PORT>            Used port of the packet
