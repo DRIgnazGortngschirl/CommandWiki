@@ -1,10 +1,6 @@
-COMMAND : 
+COMMAND : unset <NANME>
 
-unset <NANME>
-
-EXAMPLE : 
-
-unset ssh-public-key1
+EXAMPLE : unset ssh-public-key1
 
 EXPLANATION :
 
