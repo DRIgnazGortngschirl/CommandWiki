@@ -1,0 +1,19 @@
+COMMAND : 
+
+<picture>
+  <source srcset="<PATHTOIMAGEFORSMALDISPLAY>" media="(max-width: <RESOLUTION>px)">
+  <img src="<PATHTOIMAGEFORBIGDISPLAY>" style="width:auto;">
+</picture>
+
+EXAMPLE : 
+
+<picture>
+  <source srcset="background-images-for-smal-displays.jpg" media="(max-width: 600px)">
+  <img src="background-images-for-big-displays.jpg" alt="Flowers" style="width:auto;">
+</picture>
+
+EXPLANATION :
+
+<PATHTOIMAGEFORSMALDISPLAY>   This image will be show if the display is smaler than the defined RESOLUTION
+<PATHTOIMAGEFORBIGDISPLAY>    This image will be show if the display is bigger than the defined RESOLUTION
+<RESOLUTION>                  This will define the size when the image should change depending on the display size
