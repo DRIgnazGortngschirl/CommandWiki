@@ -1,8 +1,10 @@
+COMMAND : 
 
+<a href="mailto:<EMAIL>?cc=<CC-EMAIL>&amp;bcc=<BCC-EMAIL>&amp;subject=<SUBJECT>&amp;body=<MESSAGE>"><LINK-TEXT></a>
 
-COMMAND : <a href="mailto:<EMAIL>?cc=<CC-EMAIL>&amp;bcc=<BCC-EMAIL>&amp;subject=<SUBJECT>&amp;body=<MESSAGE>"><LINK-TEXT></a>
+EXAMPLE : 
 
-EXAMPLE : <a href="mailto:example@example.com?cc=info@example.com&amp;bcc=support@example.com&amp;subject=Need%20your%20Support&amp;body=New%20release%20in%201%20Day">Send a E-Mail</a>
+<a href="mailto:example@example.com?cc=info@example.com&amp;bcc=support@example.com&amp;subject=Need%20your%20Support&amp;body=New%20release%20in%201%20Day">Send a E-Mail</a>
 
 EXPLANATION :
 
