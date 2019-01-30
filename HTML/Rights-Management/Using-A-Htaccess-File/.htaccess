@@ -1,0 +1,24 @@
+COMMAND : 
+
+AuthType Basic
+AuthName "<NAMEOFLOGINFIELD>"
+AuthUserFile <PATH>.htpasswd
+Require valid-user
+
+EXAMPLE : 
+
+AuthType Basic
+AuthName "Protected Site"
+AuthUserFile C:\xampp\htdocs\nopasswordsinhere\passwords\.htpasswd
+Require valid-user
+
+EXPLANATION :
+
+<NAMEOFLOGINFIELD>    This will be promptet as a title of the login form
+<PATH>                Set alsolute path to this file
+
+ADDITIONAL :
+
+Create your own .htaccess file have a look at
+
+http://www.htaccesstools.com/htaccess-authentication
