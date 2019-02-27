@@ -1,0 +1,15 @@
+COMMAND : 
+
+config system console
+  set output standard
+ end
+
+EXAMPLE :
+
+config system console
+  set output standard
+ end
+
+EXPLANATION :
+
+Will change the terminal output to unlimited (No sites to click trow ) [--MORE---]
