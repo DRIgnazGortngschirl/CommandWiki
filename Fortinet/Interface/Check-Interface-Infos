@@ -1,0 +1,7 @@
+COMMAND : diagnose hardware deviceinfo nic <INTERFACE>
+
+EXAMPLE : diagnose hardware deviceinfo nic wan1
+
+EXPLANATION :
+
+<INTERFACE>   Defines the interface to get infos from
