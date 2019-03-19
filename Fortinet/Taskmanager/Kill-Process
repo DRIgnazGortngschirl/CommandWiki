@@ -1,0 +1,7 @@
+COMMAND : diagnose system kill 11 <PROCESSID>
+
+EXAMPLE : diagnose system kill 11 9456
+
+EXPLANATION :
+
+<PROCESSID> Defines the process that will be killed
