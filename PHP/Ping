@@ -1,0 +1,30 @@
+Linux host :
+
+<?php
+function pingAddress1($ip) {
+    $pingresult = exec("/bin/ping -c 1 $ip", $outcome, $status);
+    if (0 == $status) {
+        $status = "alive";
+    } else {
+        $status = "dead";
+    }
+    echo "Host with $ip is,  ".$status;
+}
+
+pingAddress1("<IP GOES HERE>");
+?>
+
+Windows host :
+<?php
+function pingAddress1($ip) {
+    $pingresult = exec("ping -n 1 $ip", $outcome, $status);
+    if (0 == $status) {
+        $status = "alive";
+    } else {
+        $status = "dead";
+    }
+    echo "Host with $ip is,  ".$status;
+}
+
+pingAddress1("<IP GOES HERE>");
+?>
