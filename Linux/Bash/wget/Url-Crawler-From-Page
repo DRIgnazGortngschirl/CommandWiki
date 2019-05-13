@@ -1,0 +1,7 @@
+COMMAND : wget -q <WEBSITE> -O - | tr "\t\r\n'" '   "' | grep -i -o '<a[^>]\+href[ ]*=[ \t]*"\(ht\|f\)tps\?:[^"]\+"' | sed -e 's/^.*"\([^"]\+\)".*$/\1/g'
+    
+EXAMPLE : wget -q mariomichel.com -O - | tr "\t\r\n'" '   "' | grep -i -o '<a[^>]\+href[ ]*=[ \t]*"\(ht\|f\)tps\?:[^"]\+"' | sed -e 's/^.*"\([^"]\+\)".*$/\1/g'
+
+EXPLANATION :
+
+<WEBSITE>   Defines the website to look for links
