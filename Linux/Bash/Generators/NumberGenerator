@@ -1,0 +1,7 @@
+COMMAND : od -d /dev/random
+
+EXAMPLE : od -d /dev/random
+
+EXPLANATION :
+
+Will create some lines of numbers
