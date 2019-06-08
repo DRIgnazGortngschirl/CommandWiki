@@ -1,25 +1,28 @@
 #!/bin/bash
 
-printsubnet() {
-        local OLDIFS="$IFS"
-        local SUB=${1/\/*/}
-        local MASK=$(( 1 << ( 32 - ${1/*\//} )))
-
-        IFS="."
-                set -- $SUB
-                IPS=$((0x$(printf "%02x%02x%02x%02x\n" $1 $2 $3 $4)))
-        IFS="$OLDIFS"
-
-        for ((N=0; N<MASK; N++))
-        {
-                VAL=$((IPS|N))
-
-                printf "%d.%d.%d.%d\n"                  \
-                        $(( (VAL >> 24) & 255 ))        \
-                        $(( (VAL >> 16) & 255 ))        \
-                        $(( (VAL >> 8 ) & 255 ))        \
-                        $(( (VAL)       & 255 ))
-        }
+# convert IP to decimal
+ip2dec() {
+  set -- ${1//./ }     # split $1 with "." to $1 $2 $3 $4
+  declare -i dec       # set integer attribute
+  dec=$1*256*256*256+$2*256*256+$3*256+$4
+  echo $dec
 }
 
-printsubnet <IP-ADDRESS>/<SUBNET-SUFFIX> # <--- Only edit that to get a IP range
+# convert decimal to IP
+dec2ip() {
+  declare -i ip1 ip2 ip3 ip4
+  ip1=$1/256/256/256
+  ip2=($1-$ip1*256*256*256)/256/256
+  ip3=($1-$ip1*256*256*256-$ip2*256*256)/256
+  ip4=$1-$ip1*256*256*256-$ip2*256*256-$ip3*256
+  echo $ip1.$ip2.$ip3.$ip4
+}
+
+s=$(ip2dec $1)
+e=$(ip2dec $2)
+
+for ((i=$s;i<=$e;i++)); do
+  dec2ip $i 
+done
+
+### Run the scrip with ./<FILENAME>.sh <START-IP> <END-IP>
