@@ -22,4 +22,4 @@ printsubnet() {
         }
 }
 
-printsubnet 1.1.1.1/24
+printsubnet <IP-ADDRESS>/<SUBNET-SUFFIX> # <--- Only edit that to get a IP range
