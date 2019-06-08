@@ -22,4 +22,4 @@ printsubnet() {
         }
 }
 
-printsubnet 1.1.1.1/1
+printsubnet 1.1.1.1/24
