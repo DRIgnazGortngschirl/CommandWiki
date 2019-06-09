@@ -1,0 +1,8 @@
+COMMAND : tar cf - ./<INPUTFILE> -P | pv -s $(du -sb ./<INPUTFILE> | awk '{print $1}') | gzip > <OUTPUTFILE>.tar.gz
+
+EXAMPLE : tar cf - ./ipv4.txt -P | pv -s $(du -sb ./ipv4.txt | awk '{print $1}') | gzip > ipv4.tar.gz
+
+EXPLANATION :
+
+<INPUTFILE>   Input file to create archiv from
+<OUTPUTFILE>  Output file of the archiv file
