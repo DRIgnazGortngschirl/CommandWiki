@@ -1,0 +1,8 @@
+COMMAND : dig @<DNS-SERVER> <DOAMIN>
+
+EXAMPLE : dig @192.168.10.3 mariomichel.com^C
+
+EXPLANATION :
+
+<DNS-SERVER>    defines the DNS Server 
+<DOAMIN>        defnes the domain to get the IP
