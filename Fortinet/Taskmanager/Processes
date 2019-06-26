@@ -1,4 +1,4 @@
-COMMAND : get system performance top
+COMMAND : get system performance top OR diag sys top-summary
 
 EXAMPLE : get system performance top
 
