@@ -1,0 +1,5 @@
+COMMAND : get router info routing-table all
+
+EXAMPLE :get router info routing-table all
+
+EXPLANATION :
