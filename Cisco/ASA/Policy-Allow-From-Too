@@ -1,0 +1,8 @@
+COMMAND : access-list mgmt-out extended permit ip host <SOURCE-IP> host <DESTINATION-IP>
+
+EXAMPLE : access-list mgmt-out extended permit ip host 192.168.1.2 host 192.168.2.2
+
+EXPLANATION :
+
+<SOURCE-IP>         Defines the Source IP
+<DESTINATION-IP>    Defines the Destination IP
