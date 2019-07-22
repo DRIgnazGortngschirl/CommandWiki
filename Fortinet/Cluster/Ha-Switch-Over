@@ -1,0 +1,3 @@
+COMMAND : diagnose sys ha reset-uptime
+
+EXAMPLE : diagnose sys ha reset-uptime
