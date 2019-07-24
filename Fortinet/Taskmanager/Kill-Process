@@ -1,6 +1,6 @@
-COMMAND : diagnose system kill 11 <PROCESSID>
+COMMAND : diagnose sys kill 11 <PROCESSID>
 
-EXAMPLE : diagnose system kill 11 9456
+EXAMPLE : diagnose sys kill 11 9456
 
 EXPLANATION :
 
