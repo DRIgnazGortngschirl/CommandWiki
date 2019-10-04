@@ -1,0 +1,7 @@
+COMMAND : diagnose sniffer packet any 'host <HOST> and icmp' 4
+
+EXAMPLE : diagnose sniffer packet any 'host 10.110.252.121 and icmp' 4
+
+EXPLANATION :
+
+<HOST>            Host IP
