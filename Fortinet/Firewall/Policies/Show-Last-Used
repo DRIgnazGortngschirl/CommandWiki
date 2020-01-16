@@ -1,0 +1,7 @@
+COMMAND :  diag firewall iprope show 100004 <POLICYID>
+
+EXAMPLE : diag firewall iprope show 100004 11
+
+EXPLANATION :
+
+POLICYID      Define the Policy ID
