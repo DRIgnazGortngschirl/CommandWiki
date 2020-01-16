@@ -1,1 +1,7 @@
-diag switch-controller dump mac-addr
+COMMAND : diag switch-controller mac-cache show <S/N> 
+
+EXAMPLE : diag switch-controller mac-cache show S224EPT123123123 
+
+EXPLANATION :
+
+<S/N>    Defines the Serial Number to display the mac-address cache
