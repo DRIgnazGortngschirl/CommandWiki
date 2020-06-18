@@ -1,0 +1,9 @@
+FortiGate is iperf Client
+
+#diag traffictest client-intf <INTERFACE>
+#diag traffictest server-intf <INTERFACE>
+#diag traffictest port <PORT-NR>
+#diag traffictest run -c <SERVER-IP>
+
+Win is iperf server
+>iperf3.exe -s -p <PORT-NR>
